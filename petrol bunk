@@ -1,0 +1,11 @@
+x=int(input())
+y=int(input())
+z=float(input())
+s=input()
+if s=="B":
+    print("%.2f"%(x/z))
+    print("%.2f"%((y-x)/z))
+else:
+    print("%.2f"%(y/z))
+    print("0.00")
+    
